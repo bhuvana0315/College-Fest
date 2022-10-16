@@ -1,0 +1,8 @@
+The data will be stored in the google sheet once the participant submit the registration form.
+Copy and paste the links to see how data stores in google sheets.Here I didn't use any backend code for storing the data.I just used sheet monkey website for storing the values in the excel sheet.
+
+1) Free registrations data storage google sheet link:
+https://docs.google.com/spreadsheets/d/1qpyWlGrSHzWoMYb1O1zWNjA-iw8CdsoqCpf1cwy_v_0/edit?usp=sharing
+
+2) Paid registration data storage google sheet link:
+https://docs.google.com/spreadsheets/d/1U4erwxewjHjxIQ7KYAzmfhqYu8fXacpVhUNtYx7HvSQ/edit?usp=sharing

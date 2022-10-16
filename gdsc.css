@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.pinimg.com/236x/2d/16/d5/2d16d53e5da3f81dad4a15162b999621.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(21, 107, 131);
+}
+
+h2 {
+    font-family: 'Google Sans';
+    color: rgb(47, 135, 173);
+}
+
+p {
+    font-family: 'Robonto';
+    color: rgb(18, 63, 113);
+    font-size: 20px;
+}
+
+nav {
+    height: 50px;
+}
+
+nav ul {
+    padding: 0;
+    margin-left: 5%;
+    margin-bottom: 30%;
+    margin-top: 0%;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin-top: -5%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(249, 247, 251);
+    text-align: center;
+    padding: 0 15px;
+    display: block;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: rgb(56, 175, 207);
+}
+
+nav ul li a:hover {
+    background-color: rgba(182, 235, 244, 0.763);
+}
+
+#logo {
+    width: 5%;
+    margin-left: 47%;
+    margin-right: 30%;
+    border-radius: 50%;
+
+}
+
+.web {
+    height: 55%;
+    width: 50%;
+    margin-left: 15px;
+    float: right;
+    padding: 5px;
+}
+
+.web1 {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.quiz {
+    margin-left: 15px;
+    width: 55%;
+    float: right;
+}

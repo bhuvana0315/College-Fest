@@ -1,0 +1,181 @@
+<html>
+
+<head>
+    <!--link rel="stylesheet" href="index.css"-->
+    <style>
+        body {
+            background-image: url(https://i.pinimg.com/736x/9b/9d/b0/9b9db082f4169a35f0319a739d557d9d.jpg);
+            font-family: Arial, Helvetica, sans-serif;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .dropdwn {
+            margin: 0 auto;
+        }
+
+        nav {
+            height: 60px;
+        }
+
+        nav ul {
+            padding: 0;
+            margin: 0;
+            margin-left: 35%;
+            margin-right: 30%;
+        }
+
+        nav ul li {
+            position: relative;
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 0 15px;
+            display: block;
+            line-height: 60px;
+            font-size: 20px;
+        }
+
+        nav ul li a:hover {
+            background-color: rgba(182, 235, 244, 0.763);
+        }
+
+        nav ul ul {
+            position: absolute;
+            top: 60px;
+            display: none;
+        }
+
+        nav ul li:hover>ul {
+            display: block;
+        }
+
+        nav ul ul li {
+            width: 180px;
+            float: none;
+            display: list-item;
+            position: relative;
+            background: rgba(41, 176, 194, 0.543);
+        }
+
+        nav ul ul ul li {
+            position: relative;
+            top: -50px;
+            left: 118px;
+        }
+
+
+        img {
+            height: 30%;
+            width: 15%;
+            margin-left: 42%;
+            margin-right: 30%;
+            border-radius: 50%;
+        }
+
+        video {
+            margin-top: 1%;
+            margin-left: 25%;
+            margin-bottom: 10%;
+        }
+
+        h1 {
+            color: rgb(52, 121, 161);
+            font-family: cursive;
+            font-size: 48px;
+        }
+
+        h2 {
+            font-family: 'Google Sans';
+            color: rgb(33, 85, 107);
+        }
+
+        .web1 {
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        p {
+            font-family: 'Robonto';
+            color: rgb(30, 64, 147);
+            font-size: 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+
+<body>
+    <div class="dropdwn">
+        <header> <img src="https://www.gvpce.ac.in/gvp/images/logo.jpg">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Clubs <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="#">Technical <i style="transform:rotate(-90deg);"
+                                    class="fas fa-caret-down"></i></a>
+                            <ul>
+                                <li><a href="gdsc.html">GDSC</a></li>
+
+                                <li><a href="picsl.html">PICSL</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Non-Technical <i style="transform:rotate(-90deg);"
+                                    class="fas fa-caret-down"></i></a>
+                            <ul>
+                                <li><a href="arts.html">Arts</a></li>
+
+                                <li><a href="sports.html">Sports</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">Registrations <i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="free.html">Free Events</a></li>
+
+                        <li><a href="#">Paid Events <i style="transform:rotate(-90deg);"
+                                    class="fas fa-caret-down"></i></a>
+                            <ul>
+                                <li><a href="payment.html">Make Payment</a></li>
+
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+    </div>
+    </nav>
+    <h1 align="center">College Fest</h1>
+    <h2 align="center">*** Come join us, gain knowledge and have fun ***</h2>
+    <div class="web1">
+        <p><b>Gayatri Vidya Parishad College of Engineering for Women</b> is going to
+            organise<b><i>"Fest"</i></b>from October 17th,2022 to October 20th,2022 in college premises.All the offline
+            events are conducted in
+            college itself.Online events slots will be mailed to the registered students.You can enjoy the culture
+            events which will be conducted in the evenings.<b>Only the registered candidates will be allowed
+                inside.Goodies and refreshments will be provided.</b>.The details
+            of the
+            registered candidates will be given at the main gate.After the verification you will be allowed inside.</p>
+    </div>
+    <video width="50%" height="50%" autoplay loop muted>
+        <source src="events.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+
+
+</html>
